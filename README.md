@@ -5,5 +5,13 @@ This is going to be my first end to end ML project implementation covering all r
 
 
 ## Big Picture
-- Welcome to Machine Learning Housing Corporation!
-- Organiazationa Objective: Replacing expensive, time consuming and less effective manual prediction technique with Machine Learning.
+1. Problem Statement
+   - Welcome to Machine Learning Housing Corporation!
+   -  Organiazationa Objective: Replacing expensive, time consuming and less effective manual prediction technique with Machine Learning.
+  
+2. Framing the problem
+   - A typical Univariate Multiple Regression task.
+   - Data: California Census Data
+   -  
+
+
