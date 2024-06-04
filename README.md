@@ -2,6 +2,7 @@
 This is going to be my first end to end ML project implementation covering all required stages taking guidence from book called "Hands On Machine Learning".
 ## Table of Contents
 - Big Picture
+- No Data Snooping
 
 
 ## Big Picture
@@ -20,4 +21,8 @@ This is going to be my first end to end ML project implementation covering all r
    - Root Mean Square Error (RMSE) - l<sub> 2 </sub> Norm
    - Mean Absolute Deviation (MAD) - l<sub> 1 </sub> Norm
 
+## No Data Snooping
 
+1. Get the Data
+   - Overview and Primary Understanding 
+   - Putting aside "Test Set"
