@@ -5,6 +5,7 @@ This is going to be my first end to end ML project implementation covering all r
 
 
 ## Big Picture
+
 1. Problem Statement
    - Welcome to Machine Learning Housing Corporation!
    -  Organiazationa Objective: Replacing expensive, time consuming and less effective manual prediction technique with Machine Learning.
@@ -13,6 +14,10 @@ This is going to be my first end to end ML project implementation covering all r
    - Data: California Census Data 
    - A typical Univariate Multiple Regression task.
    - Training Set is labelled hence "Supervised Learning".
-   - Data is small hence we shall opt for "Batch Learning". 
+   - Data is small hence we shall opt for "Batch Learning".
+
+2. Performance Measure
+   - Root Mean Square Error (RMSE) - l<sub> 2 </sub> Norm
+   - Mean Absolute Deviation (MAD) - l<sub> 1 </sub> Norm
 
 
