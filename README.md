@@ -35,11 +35,22 @@ This is going to be my first end to end ML project implementation covering all r
 
 ## Exploratory Data Analysis
 
-- Creating Viualizations
+1. Creating Viualizations
   ***
   ![Screenshot from 2024-06-06 10-24-13](https://github.com/pb319/California_House-Price-Prediction/assets/66114329/bf2a3d13-60e8-4af4-9cf3-01ed0fb864bc)
 
   ***
+   * There is a celar depiction of clusters in and around San Diego, Los Angeles, San Feancisco, etc.
+   * From the above figure we can see a general figure hou `ocean_proximity` is seems to be assocoated with `median_price_value`
+   *  Bus still there are exceptions in North-California, so we've to deploy some **feature engineering** here as well.
+   * Features such as **proximity to clusters** can also be checked.
+
+  ***
+ 2. Correlation Matrix and Scatter Plot
+  
+   ![Screenshot from 2024-06-06 19-53-02](https://github.com/pb319/California_House-Price-Prediction/assets/66114329/91f2e71c-50a8-461b-9892-068e18e0f5a3)
+   
+   ***
 
 
 ## To be continued
