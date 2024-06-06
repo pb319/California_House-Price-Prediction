@@ -2,7 +2,7 @@
 This is going to be my first end to end ML project implementation covering all required stages taking guidence from book called "Hands On Machine Learning"
 ***
 
-![640px-Flag_of_California svg](https://github.com/pb319/California_House-Price-Prediction/assets/66114329/7a8b8379-3b37-4a86-b074-e08cbbd59cc0)
+![Screenshot from 2024-06-06 09-28-29](https://github.com/pb319/California_House-Price-Prediction/assets/66114329/f58906c7-92ad-4dda-89cf-c5a7cf3098da)
 
 ***
 ## Table of Contents
