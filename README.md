@@ -1,5 +1,10 @@
 # California_House-Price-Prediction
 This is going to be my first end to end ML project implementation covering all required stages taking guidence from book called "Hands On Machine Learning"
+***
+
+![640px-Flag_of_California svg](https://github.com/pb319/California_House-Price-Prediction/assets/66114329/7a8b8379-3b37-4a86-b074-e08cbbd59cc0)
+
+***
 ## Table of Contents
 - Big Picture
 - No Data Snooping
