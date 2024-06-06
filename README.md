@@ -51,6 +51,10 @@ This is going to be my first end to end ML project implementation covering all r
    ![Screenshot from 2024-06-06 19-53-02](https://github.com/pb319/California_House-Price-Prediction/assets/66114329/91f2e71c-50a8-461b-9892-068e18e0f5a3)
    
    ***
+   * In General it shows a strong positive trend.
+   * Straight line at $500,000 reemphasize the **price_cap**
+   * Concerns are afew straight line in and aroud `$450,000`, `$350,000`, `$280,000`, `$230,000` and so on in the below.
+   * We may remove the concerned districts.
 
 
 ## To be continued
