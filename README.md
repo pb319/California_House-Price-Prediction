@@ -25,5 +25,8 @@ This is going to be my first end to end ML project implementation covering all r
 
 1. Get the Data
    - Overview and Primary Understanding 
-   - Putting aside "Test Set"
-## To be continued
+2. Test Set
+   - Firstly employed **Simple Random Sampling** to draw a test & tarin set using `Scikit- Learn`
+   - Sencondly utilized **Stratified Sampling** by categorizing the whole datase on `median_income`
+   - Later we compared **Sampling Bias** from both the sampliing techniques
+
