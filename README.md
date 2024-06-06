@@ -1,10 +1,6 @@
 # California_House-Price-Prediction
 This is going to be my first end to end ML project implementation covering all required stages taking guidence from book called "Hands On Machine Learning"
-***
 
-![Screenshot from 2024-06-06 09-28-29](https://github.com/pb319/California_House-Price-Prediction/assets/66114329/f58906c7-92ad-4dda-89cf-c5a7cf3098da)
-
-***
 ## Table of Contents
 - Big Picture
 - No Data Snooping
@@ -40,6 +36,10 @@ This is going to be my first end to end ML project implementation covering all r
 ## Exploratory Data Analysis
 
 - Creating Viualizations
+  ***
+  ![Screenshot from 2024-06-06 10-24-13](https://github.com/pb319/California_House-Price-Prediction/assets/66114329/bf2a3d13-60e8-4af4-9cf3-01ed0fb864bc)
+
+  ***
 
 
 ## To be continued
