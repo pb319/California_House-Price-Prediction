@@ -14,8 +14,8 @@ This is going to be my first end to end ML project implementation covering all r
 2. Framing the problem
    - Data: California Census Data 
    - A typical Univariate Multiple Regression task.
-   - Training Set is labelled hence "Supervised Learning".
-   - Data is small hence we shall opt for "Batch Learning".
+   - Training Set is labelled hence **"Supervised Learning"**.
+   - Data is small hence we shall opt for **"Batch Learning"**.
 
 2. Performance Measure
    - Root Mean Square Error (RMSE) - l<sub> 2 </sub> Norm
