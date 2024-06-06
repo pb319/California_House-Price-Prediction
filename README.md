@@ -3,6 +3,7 @@ This is going to be my first end to end ML project implementation covering all r
 ## Table of Contents
 - Big Picture
 - No Data Snooping
+- Exploratory Data Analysis
 
 
 ## Big Picture
@@ -30,3 +31,10 @@ This is going to be my first end to end ML project implementation covering all r
    - Sencondly utilized **Stratified Sampling** by categorizing the whole datase on `median_income`
    - Later we compared **Sampling Bias** from both the sampliing techniques
 
+
+## Exploratory Data Analysis
+
+- Creating Viualizations
+
+
+## To be continued
