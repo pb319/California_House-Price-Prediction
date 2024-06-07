@@ -5,6 +5,7 @@ This is going to be my first end to end ML project implementation covering all r
 - Big Picture
 - No Data Snooping
 - Exploratory Data Analysis
+- Data Preparation
 
 
 ## Big Picture
@@ -56,5 +57,17 @@ This is going to be my first end to end ML project implementation covering all r
    * Concerns are afew straight line in and aroud `$450,000`, `$350,000`, `$280,000`, `$230,000` and so on in the below.
    * We may remove the concerned districts.
 
+## Data Prparation
 
+1. Data Cleaning
+
+   * Missing value of `total_bedrooms` (1.01%) has been treated using `SimpleImputer` Class of Scikit Learn.
+     
+ 2. Handling Text Attribute
+  
+   * `OneHotEncoding` is used to handle `ocean_proximity` column
+
+
+
+***
 ## To be continued
