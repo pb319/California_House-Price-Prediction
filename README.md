@@ -61,11 +61,10 @@ This is going to be my first end to end ML project implementation covering all r
 
 1. Data Cleaning
 
-   * Missing value of `total_bedrooms` (1.01%) has been treated using `SimpleImputer` Class of Scikit Learn.
+    * Missing value of `total_bedrooms` (1.01%) has been treated using `SimpleImputer` Class of Scikit Learn.
      
  2. Handling Text Attribute
-  
-   * `OneHotEncoding` is used to handle `ocean_proximity` column
+    * `OneHotEncoding` is used to handle `ocean_proximity` column
 
 
 
