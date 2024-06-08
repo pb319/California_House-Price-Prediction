@@ -89,8 +89,8 @@ This is going to be my first end to end ML project implementation covering all r
 
 1. Grid Search Cross Validation
    
-   * Deployed GridSearchCV() to fine-tune hyperparamentrs
-   * Got --->  RandomForestRegressor(max_features=8, n_estimators=30)
+   * Deployed `GridSearchCV()` to fine-tune hyperparamentrs
+   * Got --->  `RandomForestRegressor(max_features=8, n_estimators=30)`
    * Slightly improved the performance from 50646 to 50532 (K Fold Cross Validation)
 
    
