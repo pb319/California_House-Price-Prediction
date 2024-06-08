@@ -72,8 +72,10 @@ This is going to be my first end to end ML project implementation covering all r
     * StandardScaler(), ColumnTransformer() classes have been utilized.
   
 ## Model Selection and Training
+
 1. Model Selection
    * `Linear Regression`, `Decision Tree Regressor`,`Random Forest Regressor` models has been **fitted on training set**.
+   * "K-Fold Cross Validation" depicts scores of **68973.98, 70230.35, 50618.84** respectively.
    
 3. Model Evaluation
    
