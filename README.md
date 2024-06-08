@@ -8,7 +8,7 @@ This is going to be my first end to end ML project implementation covering all r
 - Data Preparation
 - Model Selection and Training
 - Model Fine Tuning
-- Evaluation of Test Set
+- Evaluation on Test Set
 
 
 ## Big Picture
