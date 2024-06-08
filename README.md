@@ -66,7 +66,7 @@ This is going to be my first end to end ML project implementation covering all r
  2. Handling Text Attribute
     * **OneHotEncoding** is used to handle `ocean_proximity` column
 
-
-
 ***
-## To be continued...Decision
+
+
+## To be continued...
