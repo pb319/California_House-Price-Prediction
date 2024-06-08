@@ -70,6 +70,12 @@ This is going to be my first end to end ML project implementation covering all r
 3. Feature Scaling and Transformation Pipeline
     * Laid down single transformation pipeline to transform both numeric and categorical attributes
     * StandardScaler(), ColumnTransformer() classes have been utilized.
+  
+## Model Selection and Training
+1. Model Selection
+   * `Linear Regression`, `Decision Tree Regressor`,`Random Forest Regressor` models has been **fitted on training set**.
+   
+3. Model Evaluation
    
 
 ***
