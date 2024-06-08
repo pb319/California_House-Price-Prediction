@@ -7,6 +7,8 @@ This is going to be my first end to end ML project implementation covering all r
 - Exploratory Data Analysis
 - Data Preparation
 - Model Selection and Training
+- Model Fine Tuning
+- 
 
 
 ## Big Picture
@@ -74,13 +76,23 @@ This is going to be my first end to end ML project implementation covering all r
 ## Model Selection and Training
 
 1. Model Selection
+   
    * `Linear Regression`, `Decision Tree Regressor`,`Random Forest Regressor` models has been **fitted on training set**.
+   
+3. Model Evaluation
+   
    * "K-Fold Cross Validation" depicts scores of **68973.98, 70230.35, 50618.84** respectively.
    * Random Forest Regressor looks very promising.
    * Note: Score on training set is still muchlower than on validation sets means **still overfitting the training set**.
 
+## Model Fine Tuning
+
+1. Grid Search Cross Validation
    
-3. Model Evaluation
+   * Deployed GridSearchCV() to fine-tune hyperparamentrs
+   * Got --->  RandomForestRegressor(max_features=8, n_estimators=30)
+   * Slightly improved the performance from 50646 to 50532 (K Fold Cross Validation)
+
    
 
 ***
