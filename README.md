@@ -8,7 +8,7 @@ This is going to be my first end to end ML project implementation covering all r
 - Data Preparation
 - Model Selection and Training
 - Model Fine Tuning
-- 
+- Evaluation of Test Set
 
 
 ## Big Picture
@@ -92,8 +92,13 @@ This is going to be my first end to end ML project implementation covering all r
    * Deployed `GridSearchCV()` to fine-tune hyperparamentrs
    * Got --->  `RandomForestRegressor(max_features=8, n_estimators=30)`
    * Slightly improved the performance from 50646 to 50532 (K Fold Cross Validation)
+  
 
-   
+## Evaluation of Test Set
+
+
+
+
 
 ***
 
