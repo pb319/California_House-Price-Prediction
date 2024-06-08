@@ -6,6 +6,7 @@ This is going to be my first end to end ML project implementation covering all r
 - No Data Snooping
 - Exploratory Data Analysis
 - Data Preparation
+- Model Selection and Training
 
 
 ## Big Picture
