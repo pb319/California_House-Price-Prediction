@@ -63,8 +63,13 @@ This is going to be my first end to end ML project implementation covering all r
 
     * Missing value of `total_bedrooms` (1.01%) has been treated using **SimpleImputer** Class of Scikit Learn.
      
- 2. Handling Text Attribute
+2. Handling Text Attribute
     * **OneHotEncoding** is used to handle `ocean_proximity` column
+
+3. Feature Scaling and Transformation Pipeline
+    * Laid down single transformation pipeline to transform both numeric and categorical attributes
+    * StandardScaler(), ColumnTransformer() classes have been utilized.
+   
 
 ***
 
