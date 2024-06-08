@@ -76,6 +76,9 @@ This is going to be my first end to end ML project implementation covering all r
 1. Model Selection
    * `Linear Regression`, `Decision Tree Regressor`,`Random Forest Regressor` models has been **fitted on training set**.
    * "K-Fold Cross Validation" depicts scores of **68973.98, 70230.35, 50618.84** respectively.
+   * Random Forest Regressor looks very promising.
+   * Note: Score on training set is still muchlower than on validation sets means **still overfitting the training set**.
+
    
 3. Model Evaluation
    
