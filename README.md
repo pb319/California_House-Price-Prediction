@@ -65,6 +65,11 @@ This is going to be my first end to end ML project implementation covering all r
 1. Data Cleaning
 
     * Missing value of `total_bedrooms` (1.01%) has been treated using **SimpleImputer** Class of Scikit Learn.
+
+***
+  ![Screenshot from 2024-06-09 11-19-36](https://github.com/pb319/California_House-Price-Prediction/assets/66114329/5940ad05-ee51-45fd-bead-534d7a558196)
+
+*** 
      
 2. Handling Text Attribute
     * **OneHotEncoding** is used to handle `ocean_proximity` column
