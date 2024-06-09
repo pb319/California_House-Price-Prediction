@@ -81,7 +81,7 @@ This is going to be my first end to end ML project implementation covering all r
    
 3. Model Evaluation
    
-   * "K-Fold Cross Validation" depicts scores of **68973.98, 70230.35, 50618.84** respectively.
+   * "K-Fold Cross Validation" depicts RSME scores of **68973.98, 70100.86, 50639.61** respectively.
    * Random Forest Regressor looks very promising.
    * Note: Score on training set is still muchlower than on validation sets means **still overfitting the training set**.
 
@@ -91,10 +91,11 @@ This is going to be my first end to end ML project implementation covering all r
    
    * Deployed `GridSearchCV()` to fine-tune hyperparamentrs
    * Got --->  `RandomForestRegressor(max_features=8, n_estimators=30)`
-   * Slightly improved the performance from 50646 to 50532 (K Fold Cross Validation)
+   * RSME score slightly improved from 50646 to 50532 (K Fold Cross Validation)
   
 
 ## Evaluation of Test Set
+   * K-Fold Cross Validation (RSME) score of `47330.19` having `[45321.16526478, 49257.3427213]` confidence interval with 5% level of Significance.
 
 
 
