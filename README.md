@@ -60,7 +60,7 @@ This is going to be my first end to end ML project implementation covering all r
    * Concerns are afew straight line in and aroud `$450,000`, `$350,000`, `$280,000`, `$230,000` and so on in the below.
    * We may remove the concerned districts.
 
-## Data Prparation
+## Data Preparation
 
 1. Data Cleaning
 
@@ -97,7 +97,7 @@ This is going to be my first end to end ML project implementation covering all r
    
    * Deployed `GridSearchCV()` to fine-tune hyperparamentrs
    * Got --->  `RandomForestRegressor(max_features= 6, n_estimators= 30)`
-   * RSME score slightly improved from 50646 to 50532 (K Fold Cross Validation)
+   * RSME score slightly improved from 50639.61 to 50332.54 (K Fold Cross Validation)
 
 ***
   ![Screenshot from 2024-06-09 11-58-12](https://github.com/pb319/California_House-Price-Prediction/assets/66114329/983001cb-b6a2-473f-b282-7c0616418f5c)
