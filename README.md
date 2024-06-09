@@ -1,5 +1,5 @@
 # California_House-Price-Prediction
-This is going to be my first end to end ML project implementation covering all required stages taking guidence from the book called "Hands-On Machine Learning"
+This is going to be my first end-to-end ML project implementation covering all required stages taking guidance from the book called "Hands-On Machine Learning"
 
 ## Table of Contents
 - [Big Picture](https://github.com/pb319/California_House-Price-Prediction?tab=readme-ov-file#big-picture)
@@ -15,7 +15,7 @@ This is going to be my first end to end ML project implementation covering all r
 
 1. Problem Statement
    - Welcome to Machine Learning Housing Corporation!
-   - Organiazationa Objective: Replacing expensive, time consuming and less effective manual prediction technique with Machine Learning
+   - Organization Objective: Replacing expensive, time-consuming and less effective manual prediction techniques with Machine Learning
   
 2. Framing the problem
    - Data: California Census Data 
@@ -32,9 +32,9 @@ This is going to be my first end to end ML project implementation covering all r
 1. Get the Data
    - Overview and Primary Understanding
 2. Test Set
-   - Firstly employed **Simple Random Sampling** to draw a test & tarin set using `Scikit- Learn`
-   - Sencondly utilized **Stratified Sampling** by categorizing the whole datase on `median_income`
-   - Later we compared **Sampling Bias** from both the sampliing techniques
+   - Firstly employed **Simple Random Sampling** to draw a test & train set using `Scikit- Learn`
+   - Secondly utilized **Stratified Sampling** by categorizing the whole datase on `median_income`
+   - Later we compared **Sampling Bias** from both the sampling techniques
 
 
 ## Exploratory Data Analysis
@@ -45,8 +45,8 @@ This is going to be my first end to end ML project implementation covering all r
 
   ***
    * There is a celar depiction of clusters in and around San Diego, Los Angeles, San Feancisco, etc.
-   * From the above figure we can see a general figure hou `ocean_proximity` is seems to be assocoated with `median_price_value`
-   *  Bus still there are exceptions in North-California, so we've to deploy some **feature engineering** here as well.
+   * From the above figure we can see a general figure that `ocean_proximity` seems to be associated with `median_price_value`
+   *  Bus still there are exceptions in North California, so we've to deploy some **feature engineering** here as well.
    * Features such as **proximity to clusters** can also be checked.
 
   ***
@@ -57,7 +57,7 @@ This is going to be my first end to end ML project implementation covering all r
    ***
    * In General it shows a strong positive trend.
    * Straight line at $500,000 reemphasize the **price_cap**
-   * Concerns are afew straight line in and aroud `$450,000`, `$350,000`, `$280,000`, `$230,000` and so on in the below.
+   * Concerns are a few straight lines in and around `$450,000`, `$350,000`, `$280,000`, `$230,000` and so on in the below.
    * We may remove the concerned districts.
 
 ## Data Preparation
@@ -75,7 +75,7 @@ This is going to be my first end to end ML project implementation covering all r
     * **OneHotEncoding** is used to handle `ocean_proximity` column
 
 3. Feature Scaling and Transformation Pipeline
-    * Laid down single transformation pipeline to transform both numeric and categorical attributes
+    * Laid down a single transformation pipeline to transform both numeric and categorical attributes
     * StandardScaler(), ColumnTransformer() classes have been utilized.
 
   
@@ -83,19 +83,19 @@ This is going to be my first end to end ML project implementation covering all r
 
 1. Model Selection
    
-   * `Linear Regression`, `Decision Tree Regressor`,`Random Forest Regressor` models has been **fitted on training set**.
+   * `Linear Regression`, `Decision Tree Regressor`, and` Random Forest Regressor` models have been **fitted on the training set**.
    
 3. Model Evaluation
    
    * "K-Fold Cross Validation" depicts RSME scores of **68973.98, 70100.86, 50639.61** respectively.
    * Random Forest Regressor looks very promising.
-   * Note: Score on training set is still muchlower than on validation sets means **still overfitting the training set**.
+   * Note: The score on the training set is still much lower than on validation sets, which means **still overfitting the training set**.
 
 ## Model Fine Tuning
 
 1. Grid Search Cross Validation
    
-   * Deployed `GridSearchCV()` to fine-tune hyperparamentrs
+   * Deployed `GridSearchCV()` to fine-tune hyperparameters
    * Got --->  `RandomForestRegressor(max_features= 6, n_estimators= 30)`
    * RSME score slightly improved from 50639.61 to 50332.54 (K Fold Cross Validation)
 
@@ -106,7 +106,7 @@ This is going to be my first end to end ML project implementation covering all r
      
   
 ## Evaluation of Test Set
-   * K-Fold Cross Validation (RSME) score of `47330.19` having `[45321.16526478, 49257.3427213]` confidence interval with 5% level of Significance.
+   * K-Fold Cross Validation (RSME) score of `47330.19` having `[45321.16526478, 49257.3427213]` confidence interval with a 5% level of Significance.
 
 
 
