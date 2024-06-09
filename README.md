@@ -2,13 +2,13 @@
 This is going to be my first end to end ML project implementation covering all required stages taking guidence from book called "Hands On Machine Learning"
 
 ## Table of Contents
-- Big Picture
-- No Data Snooping
-- Exploratory Data Analysis
-- Data Preparation
-- Model Selection and Training
-- Model Fine Tuning
-- Evaluation on Test Set
+- [Big Picture](https://github.com/pb319/California_House-Price-Prediction?tab=readme-ov-file#big-picture)
+- [No Data Snooping](https://github.com/pb319/California_House-Price-Prediction?tab=readme-ov-file#no-data-snooping)
+- [Exploratory Data Analysis](https://github.com/pb319/California_House-Price-Prediction?tab=readme-ov-file#exploratory-data-analysis)
+- [Data Preparation](https://github.com/pb319/California_House-Price-Prediction?tab=readme-ov-file#data-prparation)
+- [Model Selection and Training](https://github.com/pb319/California_House-Price-Prediction?tab=readme-ov-file#model-selection-and-training)
+- [Model Fine Tuning](https://github.com/pb319/California_House-Price-Prediction?tab=readme-ov-file#model-fine-tuning)
+- [Evaluation on Test Set](https://github.com/pb319/California_House-Price-Prediction?tab=readme-ov-file#evaluation-of-test-set)
 
 
 ## Big Picture
