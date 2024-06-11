@@ -113,7 +113,7 @@ This is my first end-to-end ML project implementation covering all required stag
 
 
 ***
-🛡️ [Demonstartion Video](https://youtu.be/dsufBxSrp88?si=edVnb4jONRBCy4RU) 
+🛡️ [Demonstration Video](https://youtu.be/dsufBxSrp88?si=edVnb4jONRBCy4RU) 
 
 ***
 ## Thank You So Much...🙏🙏 
