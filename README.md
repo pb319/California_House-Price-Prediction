@@ -25,7 +25,6 @@ This is my first end-to-end ML project implementation covering all required stag
 
 2. Performance Measure
    - Root Mean Square Error (RMSE) - l<sub> 2 </sub> Norm
-   - Mean Absolute Deviation (MAD) - l<sub> 1 </sub> Norm
 
 ## No Data Snooping
 
