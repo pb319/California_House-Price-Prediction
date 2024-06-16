@@ -86,7 +86,7 @@ This is my first end-to-end ML project implementation covering all required stag
    
 3. Model Evaluation
    
-   * "K-Fold Cross Validation" depicts RSME scores of **68973.98, 70100.86, 50639.61** respectively.
+   * "K-Fold Cross Validation" depicts RSME scores of **68973.97, 69919.68, 50631.51** respectively.
    * Random Forest Regressor looks very promising.
    * Note: The score on the training set is still much lower than on validation sets, which means **still overfitting the training set**.
 
@@ -96,17 +96,17 @@ This is my first end-to-end ML project implementation covering all required stag
    
    * Deployed `GridSearchCV()` to fine-tune hyperparameters
    * Got --->  `RandomForestRegressor(max_features= 6, n_estimators= 30)`
-   * RSME score slightly improved from 50639.61 to 50332.54 (K Fold Cross Validation)
+   * RSME score slightly improved from 50631.51 to 50586.27 (K Fold Cross Validation)
 
 ***
-  ![Screenshot from 2024-06-09 11-58-12](https://github.com/pb319/California_House-Price-Prediction/assets/66114329/983001cb-b6a2-473f-b282-7c0616418f5c)
+  ![Screenshot from 2024-06-16 12-25-50](https://github.com/pb319/California_House-Price-Prediction/assets/66114329/40ee0120-de89-4da2-927a-3773da733e37)
   
 *** 
      
   
 ## Evaluation of Test Set
-   * K-Fold Cross Validation (RSME) score of `47330.19` having `[45321.16526478, 49257.3427213]` confidence interval with a 5% level of Significance.
-
+   * K-Fold Cross Validation (RSME) score of `46811.29` having `[44833.99542182, 48708.38642949]` confidence interval with a 5% level of Significance.
+   * Mean Absolute Percetage Error(MAPE) score `0.1771`.
 
 
 
