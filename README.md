@@ -25,6 +25,7 @@ This is my first end-to-end ML project implementation covering all required stag
 
 2. Performance Measure
    - Root Mean Square Error (RMSE) - l<sub> 2 </sub> Norm
+   - Mean Absolute Percentage Error (MAPE)
 
 ## No Data Snooping
 
