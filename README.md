@@ -1,5 +1,5 @@
 # California_House-Price-Prediction
-This is my first end-to-end ML project implementation covering all required stages taking guidance from the book called "Hands-On Machine Learning".
+This is my first end-to-end ML project implementation covering all required stages taking guidance from the book called "Hands-On Machine Learning"
 
 ## Table of Contents
 - [Big Picture](https://github.com/pb319/California_House-Price-Prediction?tab=readme-ov-file#big-picture)
